@@ -1,0 +1,33 @@
+:root{
+    --green: #16a085;
+    --black: #444;
+    --light-color: #777;
+}
+.btn{
+    border: 2px solid var(--green);
+    color: var(--green);
+    padding:  10px;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 3.5px 3.5px 2px rgb(129, 176, 179);
+    transition: 0.4s;
+}
+.btn span{
+    background-color: var(--green);
+    color: white;
+    border-radius: 3px;
+    padding: 3px 5px;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color:  var(--green);
+    color: white;
+}
+.btn:hover span{
+    background-color:  white;
+    color: var(--green);
+    margin-left: 10px;
+}
+@media screen and (max-width:790){
+    
+}
