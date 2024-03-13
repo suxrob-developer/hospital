@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                 <!-- CSS Links here-- -->
-    <link rel="stylesheet" href="./styles/navbar.css    ">
+    <!-- CSS links here  -->
+    <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/button.css">
-                <!-- Font-awesome's Link here -->
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/doctors.css">
+    <link rel="stylesheet" href="./styles/result.css">
+    <link rel="stylesheet" href="./styles/book.css">
+    <link rel="stylesheet" href="./styles/clients.css">
+    <link rel="stylesheet" href="./styles/blogs.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <!-- Font-awesome link here  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>hospital</title>
+    <title>Medcare</title>
+    
 </head>
 <body>
+    <!-- Navbar section starts -->
     <nav>
                  <!-- Logo  -->
         <div class="logo">
@@ -21,23 +30,25 @@
                  <!-- nav items -->
         <div class="nav-items">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Servis</a></li>
-                <li><a href="#">About</a></li>  
-                <li><a href="#">Doctors</a></li>
-                <li><a href="#">Book</a></li>
-                <li><a href="#">Review</a></li>
-                <li><a href="#">Blogs</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#about">About</a></li>  
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#book">Book</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#blogs">Blogs</a></li>
             </ul> 
         </div>
                  <!-- bars -->
-        <div class="bars" onclick="Toggle ()">
+        <div class="bars" onclick="Toggle()">
             <i class="fas fa-bars"></i>
             <i class="fas fa-bars fa-times"></i>
         </div>
     </nav>
-    <!-- Header section starts -->
-    <section>
+    <!-- Navbar section ends -->
+
+    <!-- Home section starts -->
+    <section id="home">
         <div class="home">
             <div class="home-gif">
                 <img src="./assets/home-img.svg" alt="home-img">
@@ -45,11 +56,318 @@
             <div class="home-text">
                 <h1>Stay Safe, Stay Healthy</h1>
                 <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Rem Sed Autem Vero? Magnam, Est Laboriosam!</p>
-                <a class="btn">Contact Us <span class="fa fa-angle right">></span></a>
+                <a class="btn">Contact Us <span class="fa fa-angle-right"></span></a>
             </div>
         </div>
     </section>
-    <!-- Header section ends -->
+    <!-- Home section ends -->
+    <!-- Services section starts -->
+    <section class="service-section" id="service">
+        <div class="section-title" id="services">
+            <span>our</span>
+            <span>SERVICES</span>
+        </div>
+        <div class="services">
+            <div class="services-box">
+                <i class="fas fa-notes-medical"></i>
+                <b>Free Checkups</b>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+            <div class="services-box">
+                <i class="fas fa-ambulance"></i>
+                <b>24/7 Ambulance</b>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+            <div class="services-box">
+                <i class="fa fa-user-md"></i>
+                <b>Expert Doctors</b>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+            <div class="services-box">
+                <i class="fas fa-pills"></i>
+                <b>Medicines</b>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+            <div class="services-box">
+                <i class="fas fa-procedures"></i>
+                <b>Bed Facility</b>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+            <div class="services-box">
+                <i class="fas fa-heartbeat"></i>
+                <b>Total Care</b>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Ad, Omnis.</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+        </div>
+     </section>
+    <!-- Services section ends -->
+    <!-- About section starts -->
+     <section id="about">
+        <div class="section-title" id="about-title">
+            <span>about</span>
+            <span>us</span>
+        </div>
+        <div class="home" id="about">
+            <div class="home-gif">
+                <img src="./assets/about-img.svg" alt="about-img">
+            </div>
+            <div class="home-text" id="about-text">
+                <h1>We Take Care Of Your Healthy Life</h1>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Iure Ducimus, Quod Ex Cupiditate Ullam In Assumenda Maiores Et Culpa Odit Tempora Ipsam Qui, Quisquam Quis Facere Iste Fuga, Minus Nesciunt.
+                <br><br>        
+                    Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Natus Vero Ipsam Laborum Porro Voluptates Voluptatibus A Nihil Temporibus Deserunt Vel?</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+        </div>
+     </section>
+    <!-- About section ends -->
+    <!-- Doctors section starts -->
+    <section class="doctors-section" id="doctors">
+        <div class="section-title" id="services">
+            <span>our</span>
+            <span>DOCTORS</span>
+        </div>
+        <div class="doctors">
+            <div class="doctors-box">
+                <img src="./assets/doc-1.jpg" alt="doc-1">
+                <h1>John Doe</h1>
+                <p>Expert Doctor</p>
+                <div class="social-icons">
+                    <span class="fab fa-facebook"></span>
+                    <span class="fab fa-twitter"></span>
+                    <span class="fab fa-instagram"></span>
+                    <span class="fab fa-linkedin"></span>
+                </div>
+            </div>
+            <div class="doctors-box">
+                <img src="./assets/doc-2.jpg" alt="doc-2">
+                <h1>John Doe</h1>
+                <p>Expert Doctor</p>
+                <div class="social-icons">
+                    <span class="fab fa-facebook"></span>
+                    <span class="fab fa-twitter"></span>
+                    <span class="fab fa-instagram"></span>
+                    <span class="fab fa-linkedin"></span>
+                </div>
+            </div>
+            <div class="doctors-box">
+                <img src="./assets/doc-3.jpg" alt="doc-3">
+                <h1>John Doe</h1>
+                <p>Expert Doctor</p>
+                <div class="social-icons">
+                    <span class="fab fa-facebook"></span>
+                    <span class="fab fa-twitter"></span>
+                    <span class="fab fa-instagram"></span>
+                    <span class="fab fa-linkedin"></span>
+                </div>
+            </div>
+            <div class="doctors-box">
+                <img src="./assets/doc-4.jpg" alt="doc-4">
+                <h1>John Doe</h1>
+                <p>Expert Doctor</p>
+                <div class="social-icons">
+                    <span class="fab fa-facebook"></span>
+                    <span class="fab fa-twitter"></span>
+                    <span class="fab fa-instagram"></span>
+                    <span class="fab fa-linkedin"></span>
+                </div>
+            </div>
+            <div class="doctors-box">
+                <img src="./assets/doc-5.jpg" alt="doc-5">
+                <h1>John Doe</h1>
+                <p>Expert Doctor</p>
+                <div class="social-icons">
+                    <span class="fab fa-facebook"></span>
+                    <span class="fab fa-twitter"></span>
+                    <span class="fab fa-instagram"></span>
+                    <span class="fab fa-linkedin"></span>
+                </div>
+            </div>
+            <div class="doctors-box">
+                <img src="./assets/doc-6.jpg" alt="doc-6">
+                <h1>John Doe</h1>
+                <p>Expert Doctor</p>
+                <div class="social-icons">
+                    <span class="fab fa-facebook"></span>
+                    <span class="fab fa-twitter"></span>
+                    <span class="fab fa-instagram"></span>
+                    <span class="fab fa-linkedin"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Doctors section ends -->
+    <!-- Book section starts -->
+    <section class="booking-section" id="book">
+        <div class="section-title" id="services">
+            <span>BOOK</span>
+            <span>NOW</span>
+        </div>
+        <div class="booking">
+            <div class="booking-img">
+                <img src="./assets/book-img.svg" alt="book-img">
+            </div>
+            <div class="booking-form">
+                <form>
+                    <h1>Book Appointment</h1>
+                    <input type="text" placeholder="your name">
+                    <input type="number" placeholder="your phone number">
+                    <input type="email" placeholder="your email">
+                    <input type="date">
+                    <a class="btn">Book Now</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Book section starts -->
+    <!-- Clients section starts -->
+    <section class="clients-section" id="review">
+        <div class="section-title" id="about-title">
+            <span>CLIENT'S</span>
+            <span>REVIEW</span>
+        </div>
+        <div class="clients">
+            <div class="clients-box">
+                <div class="clients-box-header">
+                    <img src="./assets/pic-1.png" alt="pic-1">
+                    <p>John Doe</p>
+                    <div>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="clients-box-footer">
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!
+                </div>
+            </div>
+            <div class="clients-box">
+                <div class="clients-box-header">
+                    <img src="./assets/pic-2.png" alt="pic-2">
+                    <p>Anna Pretty</p>
+                    <div>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="clients-box-footer">
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!
+                </div>
+            </div>
+            <div class="clients-box">
+                <div class="clients-box-header">
+                    <img src="./assets/pic-3.png" alt="pic-3">
+                    <p>Gudson Lee</p>
+                    <div>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-alt"></span>
+                    </div>
+                </div>
+                <div class="clients-box-footer">
+                    Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Laboriosam Sapiente Nihil Aperiam? Repellat Sequi Nisi Aliquid Perspiciatis Libero Nobis Rem Numquam Nesciunt Alias Sapiente Minus Voluptatem, Reiciendis Consequuntur Optio Dolorem!
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients section ends -->
+    <!-- Blog section starts -->
+    <section class="blogs-section" id="blogs">
+        <div class="section-title" id="services">
+            <span>OUR</span>
+            <span>BLOGS</span>
+        </div>
+        <div class="blogs">
+            <div class="blogs-box">
+                <img src="./assets/blog-1.jpg" alt="blog-1">
+                <div class="blogs-box-date">
+                    <div><span class="fas fa-calendar"></span> 25th August, 2022</div>
+                    <div><span class="fas fa-user"></span>  By Admin</div>
+                </div>
+                <h1>Blog Title Goes Here</h1>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+            <div class="blogs-box">
+                <img src="./assets/blog-2.jpg" alt="blog-2">
+                <div class="blogs-box-date">
+                    <div><span class="fas fa-calendar"></span> 25th August, 2022</div>
+                    <div><span class="fas fa-user"></span>  By Admin</div>
+                </div>
+                <h1>Blog Title Goes Here</h1>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+            <div class="blogs-box">
+                <img src="./assets/blog-3.jpg" alt="blog-3">
+                <div class="blogs-box-date">
+                    <div><span class="fas fa-calendar"></span> 25th August, 2022</div>
+                    <div><span class="fas fa-user"></span>  By Admin</div>
+                </div>
+                <h1>Blog Title Goes Here</h1>
+                <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Provident, Eius</p>
+                <a class="btn">Learn more <span class="fa fa-angle-right"></span></a>
+            </div>
+        </div>
+    </section>
+     <!-- Blog section ends -->
+    <!-- Footer section starts -->
+    <section class="footer-section">
+        <div class="footer">
+            <div class="footer-box">
+                <h1>Quick Links</h1>
+                <a href="#home"><span class="fa fa-angle-right"></span>Home</a>
+                <a href="#service"><span class="fa fa-angle-right"></span>Service</a>
+                <a href="#about"><span class="fa fa-angle-right"></span>About</a>
+                <a href="#doctors"><span class="fa fa-angle-right"></span>Doctors</a>
+                <a href="#book"><span class="fa fa-angle-right"></span>Book</a>
+                <a href="#review"><span class="fa fa-angle-right"></span>Review</a>
+                <a href="#blogs"><span class="fa fa-angle-right"></span>Blogs</a>
+            </div>
+            <div class="footer-box">
+                <h1>Our Services</h1>
+                <a href="#service"><span class="fa fa-angle-right"></span>Dental Care</a>
+                <a href="#service"><span class="fa fa-angle-right"></span>Message Therapy</a>
+                <a href="#service"><span class="fa fa-angle-right"></span>Cardioloty</a>
+                <a href="#service"><span class="fa fa-angle-right"></span>Diagnosis</a>
+                <a href="#service"><span class="fa fa-angle-right"></span>Ambulance Service</a>
+            </div>
+            <div class="footer-box">
+                <h1>Contact Info</h1>
+                <a href="tel:+998912116620"><span class="fa fa-phone"></span>+123-456-7890</a>
+                <a href="tel:+998912116620"><span class="fa fa-phone"></span>+111-222-3333</a>
+                <a href="jamshidzayniev10@gmail.com"><span class="fa fa-envelope"></span>jamshidzayniev10@gmail.com</a>
+                <a href="30suxrob01komolov1999@gmail.com"><span class="fa fa-envelope"></span>suxrobdev@gmail.com</a>
+                <a href="https://www.google.com/maps/place/Qarshi,+Qashqadaryo+Region,+Uzbekistan/@38.8582256,65.7093956,12z/data=!3m1!4b1!4m6!3m5!1s0x3f4ea63944a8e4c1:0x694369ac2037509d!8m2!3d38.8611918!4d65.7847269!16zL20vMGNiMG0?entry=ttu"><span class="fa fa-map-marker"></span>Karshi, Uzbekistan</a>
+            </div>
+            <div class="footer-box">
+                <h1>Follow Us</h1>
+                <a href="https://www.facebook.com/profile.php?id=100089264924188&mibextid=ZbWKwL"><span class="fab fa-facebook-f"></span>Facebook</a>
+                <a href="https://t.me/jamzayn10"><span class="fab fa-twitter"></span>Twitter</a>
+                <a href="https://t.me/@sukhrob_kamolov99"><span class="fab fa-telegram"></span>Telegram</a>
+                <a href="https://Instagram/@SUKHROB_KAMOLOV99"><span class="fab fa-instagram"></span>Instagram</a>
+                <a href="https://t.me/jamzayn10"><span class="fab fa-linkedin"></span>LinkedIn</a>
+                <a href="https://t.me/jamzayn10"><span class="fab fa-pinterest"></span>Pinterest</a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-title">Created By <span>Mr.Sukhrob</span> | All Rights Reserved</div>
+    </section>
+    <!-- Footer section ends -->
+
     <script src="./js/script.js"></script> 
 </body>
 </html>

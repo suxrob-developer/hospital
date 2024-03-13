@@ -74,23 +74,26 @@ nav ul li a:hover{
         max-width: 250px;
         padding: 0px    10px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-        transform: scale(1,1);
+        transform: scale(0,0);
         transition: 0.4s;
         padding: 15px;
         border: 2.5px solid var(--green);
         border-radius: 5px;
     }
     .bars i:nth-child(1){
+        display: block;
+    }
+    .bars i:nth-child(2){
         display: none;
     }
     .active i:nth-child(1){
-        display: block;
-    }
-    .active i:nth-child(2){
         display: none;
     }
-    nav .toggle{
-        transform: scale(0,0);
+    .active i:nth-child(2){
+        display: block;
+    }
+    nav .toggle ul{
+        transform: scale(1,1);
     }
 }
 
